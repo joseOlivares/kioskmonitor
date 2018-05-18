@@ -10,7 +10,7 @@ var servidor={
 
 module.exports = {
 	dbServer: 'sql307.epizy.com', 
-	user:'epiz_22099025@192.168.0.6',
+	user:'epiz_22099025',
 	pass:'test2018',
 	db:'epiz_22099025_monitor'
 }; //ip del servidor de base de datos
