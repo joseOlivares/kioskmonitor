@@ -1,12 +1,20 @@
 # kioskmonitor by José Luis Olivares
 monitoring printer and hardware status. 
 
-This app receive data from a client agent and show its status on this URL:
-The client agent send hardware status (Printer, Disks, Memory, etc) to the server.
+This app receive data from a client agent and show its status.The client agent sends hardware status to the server (Printer, Disks, Memory, etc) .
 
-We use: NodeJS, SocketIO, handlebars, and other cool stuffs!
+Demo URL: https://hardware-mon.herokuapp.com/ 
+
+Credentials (demo):
+	user: test
+	pass: test
 
 
 
-My profile:
+
+This web app is built on: NodeJS, SocketIO, handlebars, and other cool stuffs!
+
+
+
+Check my profile:
 https://www.linkedin.com/in/jolivaress
