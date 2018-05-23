@@ -5,9 +5,8 @@ This app receive data from a client agent and show its status.The client agent s
 
 Demo URL: https://hardware-mon.herokuapp.com/ 
 
-Credentials (demo):
+Credentials (demo)
 user: test,
-
 password: test
 
 
