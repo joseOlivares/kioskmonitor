@@ -9,8 +9,8 @@ var servidor={
 };
 
 module.exports = {
-	dbServer: 'sql307.epizy.com', 
-	user:'epiz_22099025@192.168.0.6',
-	pass:'test2018',
-	db:'epiz_22099025_monitor'
+	dbServer: 'sql9.freemysqlhosting.net', 
+	user:'sql9239522',
+	pass:'c1lLPPaBfm',
+	db:'sql9239522'
 }; //ip del servidor de base de datos

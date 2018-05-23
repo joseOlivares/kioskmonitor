@@ -1,1 +1,306 @@
-var _0xd4d4=['\x6d\x79\x73\x71\x6c','\x63\x72\x65\x61\x74\x65\x50\x6f\x6f\x6c','\x64\x62\x53\x65\x72\x76\x65\x72','\x75\x73\x65\x72','\x70\x61\x73\x73','\x73\x65\x6e\x64\x46\x69\x6c\x65','\x67\x65\x74','\x73\x65\x73\x73\x69\x6f\x6e','\x2f\x70\x75\x62\x6c\x69\x63\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c','\x72\x6f\x75\x74\x65','\x2f\x6c\x6f\x67\x69\x6e','\x68\x65\x61\x64\x65\x72','\x43\x61\x63\x68\x65\x2d\x43\x6f\x6e\x74\x72\x6f\x6c','\x70\x72\x69\x76\x61\x74\x65\x2c\x20\x6e\x6f\x2d\x63\x61\x63\x68\x65\x2c\x20\x6e\x6f\x2d\x73\x74\x6f\x72\x65\x2c\x20\x6d\x75\x73\x74\x2d\x72\x65\x76\x61\x6c\x69\x64\x61\x74\x65','\x2f\x70\x75\x62\x6c\x69\x63\x2f\x6c\x6f\x67\x69\x6e\x2e\x68\x74\x6d\x6c','\x70\x6f\x73\x74','\x62\x6f\x64\x79','\x62\x75\x73\x63\x61\x72','\x6c\x6f\x67\x69\x6e\x55\x73\x75\x61\x72\x69\x6f','\x6c\x6f\x67\x69\x6e\x50\x61\x73\x73\x77\x6f\x72\x64','\x75\x73\x65\x72\x6e\x61\x6d\x65','\x72\x65\x64\x69\x72\x65\x63\x74','\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c','\x2f\x6c\x6f\x67\x69\x6e\x5f\x65\x72\x72\x6f\x72\x2e\x68\x74\x6d\x6c','\x2f\x6c\x6f\x67\x6f\x75\x74','\x64\x65\x73\x74\x72\x6f\x79','\x75\x73\x65\x72\x69\x64','\x73\x74\x61\x74\x69\x63','\x2f\x70\x75\x62\x6c\x69\x63','\x67\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e','\x53\x65\x6c\x65\x63\x74\x20\x69\x64\x75\x73\x75\x61\x72\x69\x6f\x2c\x20\x75\x73\x65\x72\x69\x64\x2c\x20\x70\x61\x73\x73\x77\x6f\x72\x64\x20\x66\x72\x6f\x6d\x20\x74\x62\x6c\x75\x73\x75\x61\x72\x69\x6f','\x71\x75\x65\x72\x79','\x6c\x6f\x67','\x6c\x65\x6e\x67\x74\x68','\x72\x65\x6c\x65\x61\x73\x65','\x70\x61\x73\x73\x77\x6f\x72\x64','\x74\x72\x69\x6d','\x69\x64\x75\x73\x75\x61\x72\x69\x6f','\x68\x61\x6e\x64\x73\x68\x61\x6b\x65','\x69\x70\x43\x6c\x69\x65\x6e\x74\x65\x58','\x43\x6c\x69\x65\x6e\x74\x65\x20\x43\x6f\x6e\x65\x63\x74\x61\x64\x6f\x2e\x2e\x2e','\x2b\x2b\x2b\x2b','\x75\x6e\x64\x65\x66\x69\x6e\x65\x64','\x69\x6e\x64\x65\x78\x4f\x66','\x70\x75\x73\x68','\x54\x6f\x74\x61\x6c\x20\x63\x6c\x69\x65\x6e\x74\x65\x73\x20\x63\x6f\x6e\x65\x63\x74\x61\x64\x6f\x73\x3a\x20','\x73\x6f\x63\x6b\x65\x74\x73','\x65\x6d\x69\x74','\x6d\x6f\x73\x74\x72\x61\x72\x5f\x6c\x73\x74\x45\x71\x75\x69\x70\x6f\x73','\x4c\x69\x73\x74\x61\x64\x6f\x20\x64\x65\x20\x65\x71\x75\x69\x70\x6f\x73\x20\x65\x6e\x76\x69\x61\x64\x6f\x73\x20\x61\x20\x47\x55\x49\x20\x64\x65\x20\x6d\x6f\x6e\x69\x74\x6f\x72\x65\x6f\x21','\x76\x65\x72\x5f\x73\x74\x61\x74\x75\x73','\x50\x72\x69\x6e\x74\x65\x72\x3a\x20','\x70\x72\x69\x6e\x74\x65\x72\x4e\x61\x6d\x65','\x45\x73\x74\x61\x64\x6f\x20\x64\x65\x6c\x20\x49\x6d\x70\x72\x65\x73\x6f\x72\x3a\x20','\x70\x72\x53\x74\x61\x74\x75\x73','\x45\x73\x74\x61\x64\x6f\x20\x65\x78\x74\x65\x6e\x64\x69\x64\x6f\x20\x20\x64\x65\x6c\x20\x49\x6d\x70\x72\x65\x73\x6f\x72\x3a\x20','\x45\x72\x72\x6f\x72\x20\x44\x65\x74\x65\x63\x74\x61\x64\x6f\x3a\x20','\x70\x72\x44\x65\x74\x65\x63\x74\x65\x64\x45\x72\x72\x6f\x72\x53\x74\x61\x74\x65','\x45\x72\x72\x6f\x72\x20\x44\x65\x74\x65\x63\x74\x61\x64\x6f\x20\x45\x78\x74\x65\x6e\x64\x69\x64\x6f\x3a\x20','\x70\x72\x45\x78\x74\x65\x6e\x64\x65\x64\x44\x65\x74\x65\x63\x74\x65\x64\x45\x72\x72\x6f\x72\x53\x74\x61\x74\x65','\x2e\x2e\x2e\x2e\x2e\x2e\x2e','\x69\x70\x49\x44','\x6c\x61\x74\x69\x64\x6f\x5f\x65\x71\x75\x69\x70\x6f\x5f\x6f\x6b','\x76\x65\x72\x5f\x68\x77\x43\x6c\x69\x65\x6e\x74\x65','\x76\x65\x72\x5f\x68\x77\x43\x6c\x69\x65\x6e\x74\x65\x44\x61\x74\x61','\x64\x65\x74\x61\x6c\x6c\x65\x5f\x68\x77\x43\x6c\x69\x65\x6e\x74\x65','\x64\x65\x74\x61\x6c\x6c\x65\x5f\x68\x77\x43\x6c\x69\x65\x6e\x74\x65\x53\x68\x6f\x77','\x70\x72\x6f\x6d\x69\x73\x65','\x70\x72\x6f\x62\x65','\x74\x68\x65\x6e','\x64\x6f\x6e\x65','\x61\x6c\x69\x76\x65','\x52\x65\x73\x70\x75\x65\x73\x74\x61','\x70\x69\x6e\x67\x5f\x69\x70\x52\x65\x73\x70','\x62\x69\x6e\x64','\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74','\x73\x70\x6c\x69\x63\x65','\x63\x6f\x6e\x65\x78\x69\x6f\x6e\x5f\x63\x6c\x69\x65\x6e\x74\x65','\x65\x71\x75\x69\x70\x6f\x5f\x64\x65\x73\x63\x6f\x6e\x65\x63\x74\x61\x64\x6f','\x2d\x2d\x2d\x2d','\x43\x6c\x69\x65\x6e\x74\x65\x20\x64\x65\x73\x63\x6f\x6e\x65\x63\x74\x61\x64\x6f\x2e\x2e\x2e','\x2d\x2d\x2d','\x6c\x69\x73\x74\x65\x6e','\x6c\x69\x73\x74\x65\x6e\x69\x6e\x67\x20\x6f\x6e\x20\x2a\x3a','\x65\x78\x70\x72\x65\x73\x73','\x65\x78\x70\x72\x65\x73\x73\x2d\x73\x65\x73\x73\x69\x6f\x6e','\x68\x74\x74\x70','\x53\x65\x72\x76\x65\x72','\x70\x69\x6e\x67','\x73\x6f\x63\x6b\x65\x74\x2e\x69\x6f','\x2e\x2f\x70\x75\x62\x6c\x69\x63\x2f\x6a\x73\x2f\x73\x65\x74\x53\x65\x72\x76\x65\x72\x49\x70\x2e\x6a\x73','\x52\x6f\x75\x74\x65\x72','\x75\x73\x65','\x6a\x73\x6f\x6e','\x75\x72\x6c\x65\x6e\x63\x6f\x64\x65\x64','\x37\x6f\x6c\x69\x76\x61\x72\x65\x73\x37\x37'];(function(_0x952f2a,_0x21e7ec){var _0x291541=function(_0x6561c0){while(--_0x6561c0){_0x952f2a['\x70\x75\x73\x68'](_0x952f2a['\x73\x68\x69\x66\x74']());}};_0x291541(++_0x21e7ec);}(_0xd4d4,0x174));var _0x4d4d=function(_0x3dce0f,_0x34a650){_0x3dce0f=_0x3dce0f-0x0;var _0x12b92b=_0xd4d4[_0x3dce0f];return _0x12b92b;};var express=require(_0x4d4d('0x0'));var session=require(_0x4d4d('0x1'));var app=express();var http=require(_0x4d4d('0x2'))[_0x4d4d('0x3')](app);var ping=require(_0x4d4d('0x4'));var io=require(_0x4d4d('0x5'))(http);var dbIp=require(_0x4d4d('0x6'));var router=express[_0x4d4d('0x7')]();var bodyParser=require('\x62\x6f\x64\x79\x2d\x70\x61\x72\x73\x65\x72');app[_0x4d4d('0x8')](bodyParser[_0x4d4d('0x9')]());app['\x75\x73\x65'](bodyParser[_0x4d4d('0xa')]({'\x65\x78\x74\x65\x6e\x64\x65\x64':!![]}));app[_0x4d4d('0x8')](session({'\x73\x65\x63\x72\x65\x74':_0x4d4d('0xb'),'\x72\x65\x73\x61\x76\x65':![],'\x73\x61\x76\x65\x55\x6e\x69\x6e\x69\x74\x69\x61\x6c\x69\x7a\x65\x64':!![]}));var port=process['\x65\x6e\x76']['\x50\x4f\x52\x54']||0xbb8;var mysql=require(_0x4d4d('0xc'));var pool=mysql[_0x4d4d('0xd')]({'\x68\x6f\x73\x74':dbIp[_0x4d4d('0xe')],'\x75\x73\x65\x72':dbIp[_0x4d4d('0xf')],'\x70\x61\x73\x73\x77\x6f\x72\x64':dbIp[_0x4d4d('0x10')],'\x69\x6e\x73\x65\x63\x75\x72\x65\x41\x75\x74\x68':!![],'\x64\x61\x74\x61\x62\x61\x73\x65':dbIp['\x64\x62']});var socketCount=0x0;var equiposConectados=[];var equiposAlertados=[];var ipIdCliente=-0x1;var quitarIpId=-0x1,quitarIpIdPos=-0x1;var listEquipos='\x53\x45\x4c\x45\x43\x54\x20\x2a\x20\x46\x52\x4f\x4d\x20\x74\x62\x6c\x65\x71\x75\x69\x70\x6f';var usersInfo=[];var usuariosConectados=[];var sess;router['\x67\x65\x74']('\x2f',requireLogin,function(_0x39a92b,_0x245f54){sess=_0x39a92b['\x73\x65\x73\x73\x69\x6f\x6e'];_0x245f54[_0x4d4d('0x11')](__dirname+'\x2f\x70\x75\x62\x6c\x69\x63\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c');});router[_0x4d4d('0x12')]('\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c',requireLogin,function(_0x4a7307,_0x4292c7){sess=_0x4a7307[_0x4d4d('0x13')];_0x4292c7['\x73\x65\x6e\x64\x46\x69\x6c\x65'](__dirname+_0x4d4d('0x14'));});router[_0x4d4d('0x15')](_0x4d4d('0x16'))[_0x4d4d('0x12')](function(_0x2dbe4e,_0x2975fe){_0x2975fe[_0x4d4d('0x17')](_0x4d4d('0x18'),_0x4d4d('0x19'));_0x2975fe['\x73\x65\x6e\x64\x46\x69\x6c\x65'](__dirname+_0x4d4d('0x1a'));})[_0x4d4d('0x1b')](function(_0x2ee94d,_0x428281){sess=_0x2ee94d[_0x4d4d('0x13')];var _0x585b5f=_0x2ee94d[_0x4d4d('0x1c')];var _0x264ee5=sesionUsuario[_0x4d4d('0x1d')](usersInfo,_0x585b5f[_0x4d4d('0x1e')],_0x585b5f[_0x4d4d('0x1f')]);if(_0x264ee5!==-0x1){sess[_0x4d4d('0x20')]=_0x585b5f['\x6c\x6f\x67\x69\x6e\x55\x73\x75\x61\x72\x69\x6f'];sess['\x75\x73\x65\x72\x69\x64']=_0x264ee5;_0x428281[_0x4d4d('0x21')](_0x4d4d('0x22'));}else{_0x428281[_0x4d4d('0x21')](_0x4d4d('0x23'));}});router[_0x4d4d('0x12')](_0x4d4d('0x24'),function(_0x2f6f24,_0x3216ae){_0x2f6f24['\x73\x65\x73\x73\x69\x6f\x6e'][_0x4d4d('0x25')]();_0x3216ae[_0x4d4d('0x21')](_0x4d4d('0x16'));});router['\x67\x65\x74']('\x2f\x75\x73\x65\x72\x6e\x61\x6d\x65',function(_0x210465,_0x106f85){sess=_0x210465[_0x4d4d('0x13')];_0x106f85[_0x4d4d('0x9')]({'\x6d\x79\x55\x73\x65\x72\x4e\x61\x6d\x65':sess[_0x4d4d('0x20')],'\x6d\x79\x55\x73\x65\x72\x49\x64':sess[_0x4d4d('0x26')]});});app[_0x4d4d('0x8')]('\x2f',router);app[_0x4d4d('0x8')](express[_0x4d4d('0x27')](__dirname+_0x4d4d('0x28')));function requireLogin(_0x4361c0,_0x52ddc9,_0x5aad2b){sess=_0x4361c0[_0x4d4d('0x13')];if(!sess['\x75\x73\x65\x72\x6e\x61\x6d\x65']){_0x52ddc9['\x72\x65\x64\x69\x72\x65\x63\x74']('\x2f\x6c\x6f\x67\x69\x6e');}else{_0x5aad2b();}};pool[_0x4d4d('0x29')](function(_0x49429b,_0x3e15b7){var _0x234abb=_0x4d4d('0x2a');_0x3e15b7[_0x4d4d('0x2b')](_0x234abb,function(_0x3b3dda,_0x4a6ea4){if(_0x3b3dda){console[_0x4d4d('0x2c')](_0x3b3dda);return;}else{usersInfo=_0x4a6ea4;console[_0x4d4d('0x2c')]('\x4c\x69\x73\x74\x61\x64\x6f\x20\x64\x65\x20\x75\x73\x75\x61\x72\x69\x6f\x73\x20\x63\x61\x72\x67\x61\x64\x6f\x73\x20\x65\x6e\x20\x6d\x65\x6d\x6f\x72\x69\x61\x2c\x20\x74\x6f\x74\x61\x6c\x20'+usersInfo[_0x4d4d('0x2d')]);}_0x3e15b7[_0x4d4d('0x2e')]();});});var sesionUsuario={'\x62\x75\x73\x63\x61\x72':function(_0x24b320,_0x3bd115,_0x3144bf){for(var _0x3da47b=0x0;_0x3da47b<_0x24b320[_0x4d4d('0x2d')];_0x3da47b++){if(_0x24b320[_0x3da47b][_0x4d4d('0x26')]===_0x3bd115['\x74\x72\x69\x6d']()&&_0x24b320[_0x3da47b][_0x4d4d('0x2f')]===_0x3144bf[_0x4d4d('0x30')]()){return _0x24b320[_0x3da47b][_0x4d4d('0x31')];}}return-0x1;}};io['\x6f\x6e']('\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e',function(_0x1bc665){ipIdCliente=_0x1bc665[_0x4d4d('0x32')][_0x4d4d('0x2b')][_0x4d4d('0x33')];console[_0x4d4d('0x2c')](_0x4d4d('0x34')+ipIdCliente);console[_0x4d4d('0x2c')](_0x4d4d('0x35'));if(typeof ipIdCliente!==_0x4d4d('0x36')&&ipIdCliente!==null){if(equiposConectados[_0x4d4d('0x37')](ipIdCliente)==-0x1){equiposConectados[_0x4d4d('0x38')](ipIdCliente);}console[_0x4d4d('0x2c')](_0x4d4d('0x39')+equiposConectados[_0x4d4d('0x2d')]);}socketCount++;pool['\x67\x65\x74\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e'](function(_0x2abe0d,_0x2b176f){_0x2b176f[_0x4d4d('0x2b')](listEquipos,function(_0x29ddac,_0x15a257){if(_0x29ddac){console[_0x4d4d('0x2c')](_0x29ddac);return;}else{io[_0x4d4d('0x3a')][_0x4d4d('0x3b')](_0x4d4d('0x3c'),_0x15a257);console['\x6c\x6f\x67'](_0x4d4d('0x3d'));}_0x2b176f[_0x4d4d('0x2e')]();});});_0x1bc665['\x6f\x6e'](_0x4d4d('0x3e'),function(_0x1095f5){console[_0x4d4d('0x2c')]('\x49\x50\x20\x43\x6c\x69\x65\x6e\x74\x65\x3a\x20'+_0x1095f5['\x69\x70']);console[_0x4d4d('0x2c')]('\x49\x70\x49\x64\x3a\x20'+_0x1095f5['\x69\x70\x49\x44']);console[_0x4d4d('0x2c')](_0x4d4d('0x3f')+_0x1095f5[_0x4d4d('0x40')]);console['\x6c\x6f\x67'](_0x4d4d('0x41')+_0x1095f5[_0x4d4d('0x42')]);console[_0x4d4d('0x2c')](_0x4d4d('0x43')+_0x1095f5['\x70\x72\x45\x78\x74\x65\x6e\x64\x65\x64\x50\x72\x69\x6e\x74\x65\x72\x73\x74\x61\x74\x75\x73']);console[_0x4d4d('0x2c')](_0x4d4d('0x44')+_0x1095f5[_0x4d4d('0x45')]);console[_0x4d4d('0x2c')](_0x4d4d('0x46')+_0x1095f5[_0x4d4d('0x47')]);console[_0x4d4d('0x2c')](_0x4d4d('0x48'));if(equiposConectados[_0x4d4d('0x37')](_0x1095f5[_0x4d4d('0x49')])==-0x1){equiposConectados[_0x4d4d('0x38')](_0x1095f5[_0x4d4d('0x49')]);}io[_0x4d4d('0x3a')][_0x4d4d('0x3b')](_0x4d4d('0x4a'),_0x1095f5,equiposConectados[_0x4d4d('0x2d')]);});_0x1bc665['\x6f\x6e'](_0x4d4d('0x4b'),function(_0x494d7f){io[_0x4d4d('0x3a')][_0x4d4d('0x3b')](_0x4d4d('0x4c'),_0x494d7f);});_0x1bc665['\x6f\x6e'](_0x4d4d('0x4d'),function(_0x3d0cf8,_0x4ea611,_0x1e56d8,_0x2b53a3){io[_0x4d4d('0x3a')][_0x4d4d('0x3b')](_0x4d4d('0x4e'),{'\x6f\x73':_0x3d0cf8,'\x63\x70\x75':_0x4ea611,'\x64\x65\x74\x4d\x65\x6d':_0x1e56d8,'\x64\x65\x74\x44\x69\x73\x6b':_0x2b53a3});});var _0x263dbe=![];function _0x12a34b(_0x19dc40){var _0x347fd1=![];ping[_0x4d4d('0x4f')][_0x4d4d('0x50')](_0x19dc40)[_0x4d4d('0x51')](function(_0x4b8214){_0x379bd7(_0x4b8214);})[_0x4d4d('0x52')]();return _0x263dbe;};function _0x379bd7(_0x13a615){_0x263dbe=_0x13a615[_0x4d4d('0x53')];};_0x1bc665['\x6f\x6e']('\x70\x69\x6e\x67\x5f\x69\x70',function(_0x580d25){var _0x307c9f=0x0;for(var _0x39475b=0x0;_0x39475b<=_0x580d25[_0x4d4d('0x2d')]-0x1;_0x39475b++){ping['\x73\x79\x73'][_0x4d4d('0x50')](_0x580d25[_0x39475b]['\x69\x70']['\x74\x6f\x53\x74\x72\x69\x6e\x67'](),function(_0x118200){if(_0x118200){_0x307c9f=0x1;}else{_0x307c9f=0x0;}_0x580d25[this['\x70']][_0x4d4d('0x54')]=_0x307c9f;io[_0x4d4d('0x3a')]['\x65\x6d\x69\x74'](_0x4d4d('0x55'),_0x580d25[this['\x70']]);}[_0x4d4d('0x56')]({'\x70':_0x39475b}));}});_0x1bc665['\x6f\x6e'](_0x4d4d('0x57'),function(){socketCount--;quitarIpId=_0x1bc665[_0x4d4d('0x32')][_0x4d4d('0x2b')][_0x4d4d('0x33')];if(typeof quitarIpId!=='\x75\x6e\x64\x65\x66\x69\x6e\x65\x64'&&quitarIpId!==null){quitarIpIdPos=equiposConectados['\x69\x6e\x64\x65\x78\x4f\x66'](quitarIpId);equiposConectados[_0x4d4d('0x58')](quitarIpIdPos,0x1);io[_0x4d4d('0x3a')][_0x4d4d('0x3b')](_0x4d4d('0x59'),equiposConectados[_0x4d4d('0x2d')]);}io[_0x4d4d('0x3a')][_0x4d4d('0x3b')](_0x4d4d('0x5a'),_0x1bc665[_0x4d4d('0x32')][_0x4d4d('0x2b')]['\x69\x70\x43\x6c\x69\x65\x6e\x74\x65\x58']);console[_0x4d4d('0x2c')](_0x4d4d('0x5b'));console[_0x4d4d('0x2c')](_0x4d4d('0x5c')+_0x1bc665[_0x4d4d('0x32')][_0x4d4d('0x2b')][_0x4d4d('0x33')]);console['\x6c\x6f\x67'](_0x4d4d('0x39')+equiposConectados['\x6c\x65\x6e\x67\x74\x68']);console[_0x4d4d('0x2c')](_0x4d4d('0x5d'));});});http[_0x4d4d('0x5e')](port,function(){console[_0x4d4d('0x2c')](_0x4d4d('0x5f')+port);});
+var express= require('express');
+var session = require('express-session');//manejo sesiones
+var app = express();
+var http = require('http').Server(app);
+var ping = require('ping'); //ping network
+var io = require('socket.io')(http);
+var dbIp=require('./public/js/setServerIp.js');//importando modulo donde esta la ip del servidor de BD
+//--13/09/2017---
+var router = express.Router(); //express4
+//------------
+
+//---08/09/2017
+var bodyParser = require('body-parser');
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
+//----------
+
+//--18/09/2017--- Sesiones
+	app.use(session({secret: '7olivares77',resave:false, saveUninitialized: true}));
+//-----
+
+/* Linea original, server y pagina html a mostrar estan  en misma carpeta*/
+//app.use(express.static(__dirname + '/public')); //serving statics files like css, js, images
+
+var port=process.env.PORT || 3000; //this is for heroku
+
+//---------------------------------
+var mysql = require('mysql');
+
+//port is optional
+var pool= mysql.createPool({ //conexion a base de datos mysql  192.168.8.100
+  host     : dbIp.dbServer,
+  user     : dbIp.user,
+  password : dbIp.pass,
+  insecureAuth: true, 
+  database : dbIp.db
+});
+
+
+// Define/initialize our global vars
+	var socketCount = 0;
+	var equiposConectados=[]; //guarda el listado de equipos conectados (guarda idIP)
+	var equiposAlertados=[];
+	var ipIdCliente=-1;
+	var quitarIpId=-1, quitarIpIdPos=-1;
+	var listEquipos='SELECT * FROM tblequipo'; //seleccionando las categorias disponibles
+	var usersInfo=[];//guarda informacion del listado de usuarios
+	var usuariosConectados=[];
+	//var socketConnectedId=[]; //guarda socket e ipid del cliente, para comunicacion privada 19/10/2017 
+
+	var sess; //variable que guarda las sesiones activas
+//-------------------------------
+
+
+
+
+router.get('/',requireLogin, function(req, res) {
+	sess=req.session;
+	res.sendFile(__dirname +'/public/index.html');		
+});
+
+router.get('/index.html',requireLogin, function(req, res) {
+	sess=req.session;
+	res.sendFile(__dirname +'/public/index.html');
+});
+
+router.route('/login')
+    // show the form (GET http://localhost:8080/login)
+    .get(function(req, res) {
+    	res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
+    	res.sendFile(__dirname +'/public/login.html');
+    })
+    // process the form (POST http://localhost:8080/login)
+    .post(function(req, res) {
+    		sess = req.session;
+    	  var post = req.body;
+    	  var ssnIdusuario=sesionUsuario.buscar(usersInfo,post.loginUsuario,post.loginPassword);
+		if(ssnIdusuario!==-1)//si existe el usuario y password
+		{
+			//usuariosConectados.push(post.loginUsuario,post.loginPassword);//agregando al array de ususarios conectados
+			sess.username=post.loginUsuario;
+			sess.userid=ssnIdusuario;
+			res.redirect('/index.html');
+
+		}else {
+		    //res.send('Error de usuario o contrasena');
+		    res.redirect('/login_error.html');
+		  }
+
+    });
+
+   	router.get('/logout', function(req, res) {
+  		req.session.destroy();
+  		res.redirect('/login');
+	});
+
+   	router.get('/username', function(req, res) {
+  		sess=req.session;
+  		//res.send(JSON.stringify({ myUser: "olivares" }));
+  		res.json({myUserName:sess.username,myUserId:sess.userid});
+	});	
+
+
+
+app.use('/',router);
+app.use(express.static(__dirname + '/public'));//movido
+
+
+/*app.use(function(req, res, next) {
+	if(!req.session){
+    	res.redirect('/login');	
+    	//res.sendFile(__dirname +'/public/login.html');		
+	}else{
+		next();
+		//res.sendFile(__dirname +'/public/index.html');	
+	}
+});*/
+
+function requireLogin (req, res, next) {
+	sess=req.session;
+  if (!sess.username) {
+    res.redirect('/login');
+  } else {
+    next();
+  }
+};
+
+//Cargando listado de usuarios en memoria
+	pool.getConnection(function(err, connection) { 
+		var queryUsers="Select idusuario, userid, password from tblusuario";
+		  // Use the connection
+		  connection.query(queryUsers,function(err, rows) {
+		  		if(err){
+		  			console.log(err);
+		  			return;
+		  		}else{
+		  			usersInfo=rows;//guardando en memoria el listado de usuarios de acceso
+		  			console.log('Listado de usuarios cargados en memoria, total '+usersInfo.length);
+		  		}
+		      
+		    	connection.release();// release connection
+		      //Don't use the connection here, it has been returned to the pool.
+		  });//cierra query
+	});
+//------------------------------------
+
+var  sesionUsuario={buscar: function(arrayObjeto,myUser,myPass){			  	
+		for(var p = 0; p < arrayObjeto.length; p++) {
+		   if(arrayObjeto[p].userid===myUser.trim() && arrayObjeto[p].password===myPass.trim()) {
+		     return arrayObjeto[p].idusuario;
+		   }
+		}
+
+		return -1;//si no encuentra nada
+    }};
+
+
+io.on('connection', function(socket){
+	ipIdCliente=socket.handshake.query['ipClienteX'];
+	console.log('Cliente Conectado...'+ipIdCliente);
+	//console.log('session id...'+socket.id);
+	console.log('++++');
+
+	if(typeof ipIdCliente !== 'undefined' &&  ipIdCliente!== null )//si el cliente envia el idIP
+	{
+			if(equiposConectados.indexOf(ipIdCliente)==-1)//si no esta en el array, lo agrega
+			{
+				equiposConectados.push(ipIdCliente);
+				//socketConnectedId.push(socket.id); //agregando socket.id 19/10/17
+			}
+
+			console.log('Total clientes conectados: '+equiposConectados.length);		
+			
+	}
+
+
+
+    socketCount++;// Socket has connected, increase socket count
+
+
+	   //Cargando listado de equipo en gui del cliente de monitoreo
+		pool.getConnection(function(err, connection) { 
+			  // Use the connection
+			  connection.query(listEquipos,function(err, rows) {
+			  		if(err){
+			  			console.log(err);
+			  			return;
+			  		}else{
+			  			io.sockets.emit('mostrar_lstEquipos',rows);//emitiendo a todas las conecciones, si dentro del array rows hay una / genera conflictos con javascript
+			  			console.log('Listado de equipos enviados a GUI de monitoreo!');
+			  		}
+			      
+			    	connection.release();// release connection
+			      //Don't use the connection here, it has been returned to the pool.
+			  });//cierra query
+		});
+
+
+		socket.on('ver_status',function(equipo){//recibe datos de los equipos,desde cliente monitoreo
+			console.log("IP Cliente: "+equipo.ip);
+			console.log("IpId: "+equipo.ipID);
+			console.log("Printer: "+equipo.printerName);
+			console.log("Estado del Impresor: "+equipo.prStatus);
+			console.log("Estado extendido  del Impresor: "+equipo.prExtendedPrinterstatus);				
+			console.log("Error Detectado: "+equipo.prDetectedErrorState);
+			console.log("Error Detectado Extendido: "+equipo.prExtendedDetectedErrorState);
+			console.log(".......");	
+			
+			if(equiposConectados.indexOf(equipo.ipID)==-1)//si no esta en el array, lo agrega. 
+			{
+				equiposConectados.push(equipo.ipID);	//Si se esta afectando el performance, es posible quitar este bloque 
+			}
+
+
+			io.sockets.emit('latido_equipo_ok',equipo,equiposConectados.length);
+		});
+
+
+
+	//agregado 09/11/2017 controlan la solicitud y envio de datos de hardware del cliente
+		socket.on('ver_hwCliente',function(myIpID){
+				//enviando peticion a todos los clientes, responderà quien tenga el ipID solicitado
+				//console.log("Llama ver_hwCliente ipId="+myIpID);
+				io.sockets.emit('ver_hwClienteData',myIpID);
+		});
+
+		socket.on('detalle_hwCliente',function (os,cpu,detMem,detDisk){
+
+				//console.log(cpu.Nombre);
+				io.sockets.emit('detalle_hwClienteShow',{os,cpu,detMem,detDisk});//enviandoa datos a interfaz de administraciòn index.html
+		});
+	//----------------
+		var ipRes=false;
+		function pinging_ip(host){
+			var resp=false;
+    		ping.promise.probe(host)
+        	.then(function (res) {
+        			otra(res);
+        			//console.log(res.alive);
+			})
+        	.done();
+
+        	return ipRes;
+		};
+
+
+		function otra(res){
+			ipRes=res.alive;
+		};
+
+
+
+
+		socket.on('ping_ip',function(ipsOffLine){//28-12-2017 Modulo para hacer ping a IPs de equipos
+				//haciendo ping para calidar si el equipo está encendido
+				var respuesta=0;//no responde
+
+				for (var p = 0; p <= ipsOffLine.length - 1; p++) {					
+					    ping.sys.probe(ipsOffLine[p].ip.toString(), function(isAlive){ //ipsOffLine[p].ip.toString()
+					    	
+					    	if(isAlive){
+        						respuesta=1;//responde
+					    	}else{
+        						respuesta=0;
+        					}
+							ipsOffLine[this.p].Respuesta=respuesta;	//agregando la repsuesta del ping 
+							//io.sockets.emit('ping_ipResp',ipsOffLine);
+							io.sockets.emit('ping_ipResp',ipsOffLine[this.p]);
+						}.bind({p:p}));
+					
+					/*console.log("Respuesta = "+respuesta);
+					console.log("################################################");
+					console.log("IP: "+ipsOffLine[p].ip+" "+ipsOffLine[p].Respuesta);*/
+				}
+
+
+				//io.sockets.emit('ping_ipResp',ipsOffLine);
+		});
+
+
+    socket.on('disconnect', function () {
+        socketCount--; // Decrease the socket count on a disconnect	       
+        //io.sockets.emit('users connected', socketCount);    // Let all sockets know how many are connected
+     	quitarIpId=socket.handshake.query['ipClienteX']; //ipId dele quipo desconectado
+		if(typeof quitarIpId !== 'undefined' &&  quitarIpId!== null )//si el cliente envia el idIP
+		{
+        	quitarIpIdPos=equiposConectados.indexOf(quitarIpId); //posicion del equipo desconectado en el array
+        	equiposConectados.splice(quitarIpIdPos,1); //quitando el ipid del array de equipos conectados
+			//socketConnectedId.splice(quitarIpIdPos,1); //quitando socket.id 19/10/17
+
+ 			io.sockets.emit('conexion_cliente', equiposConectados.length);    // actualizamos el total de clientes conectados, 02/07/2017 11:35pm        		
+		}
+               
+        io.sockets.emit('equipo_desconectado',socket.handshake.query['ipClienteX']);
+        console.log("----");
+        console.log('Cliente desconectado...'+socket.handshake.query['ipClienteX']);
+        console.log('Total clientes conectados: '+equiposConectados.length);
+        console.log("---");
+    });
+
+});
+
+
+http.listen(port, function(){
+  console.log('listening on *:'+port);
+});
