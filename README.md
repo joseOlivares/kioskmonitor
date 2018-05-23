@@ -7,6 +7,7 @@ Demo URL: https://hardware-mon.herokuapp.com/
 
 Credentials (demo):
 user: test
+
 password: test
 
 
