@@ -6,8 +6,9 @@ This app receive data from a client agent and show its status.The client agent s
 Demo URL: https://hardware-mon.herokuapp.com/ 
 
 Credentials (demo)
-user: test,
-password: test
+-user: test
+-password: test
+
 This web app is built on: NodeJS, SocketIO, handlebars, and other cool stuffs!
 
 -------------------------------------------------
