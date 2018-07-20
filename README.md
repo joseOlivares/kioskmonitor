@@ -11,7 +11,7 @@ password: test
 This web app is built on: NodeJS, SocketIO, handlebars, and other cool stuffs!
 
 -------------------------------------------------
-  CLIENT AGENT
+  *CLIENT AGENT FILES*
   Download the client agent, file client_Kiosk_monitor_demo.rar
   Uncompress it and follow the instructions inside file reademe.txt
   
