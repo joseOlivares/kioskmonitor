@@ -13,10 +13,10 @@ This web app is built on: NodeJS, SocketIO, handlebars, and other cool stuffs!
 -------------------------------------------------
   *CLIENT AGENT FILES*
   
-  Download the client agent, file client_Kiosk_monitor_demo.rar
-  Uncompress it and follow the instructions inside file reademe.txt
+  -Download the client agent, file client_Kiosk_monitor_demo.rar
+  -Uncompress it and follow the instructions inside file readme.txt
   
-  Note. The client agent runs only on Windows OS using Internet Explorer 6+. You have to allow  the browser to run AcgtiveX Objects to see the client agent connected on the server URL https://hardware-mon.herokuapp.com/ 
+  -Note. The client agent runs only on Windows OS using Internet Explorer 6+. You have to allow  the browser to run AcgtiveX Objects to see the client agent connected on the server URL https://hardware-mon.herokuapp.com/ 
   
 -------------------------------------------------
 
