@@ -8,9 +8,18 @@ Demo URL: https://hardware-mon.herokuapp.com/
 Credentials (demo)
 user: test,
 password: test
-
-
 This web app is built on: NodeJS, SocketIO, handlebars, and other cool stuffs!
+
+
+-------------------------------------------------
+  CLIENT AGENT
+  Download the client agent, file client_Kiosk_monitor_demo.rar
+  Uncompress it and follow the instructions inside file reademe.txt
+  
+  Note. The client agent runs only on Windows OS using Internet Explorer 6+. You have to allorw browser to run AcgtiveX Objects to see the client agent connected on the server URL https://hardware-mon.herokuapp.com/ 
+-------------------------------------------------
+
+
 
 
 
