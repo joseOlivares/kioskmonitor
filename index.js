@@ -250,12 +250,12 @@ io.on('connection', function(socket){
 //++++++++++++++++++++++++++++++++
 function testPing(){	
 var hosts = ['8.8.8.8', 'google.com', 'yahoo.com'];
-hosts.forEach(function(host){
-    ping.sys.probe(host, function(isAlive){
-        var msg = isAlive ? 'host ' + host + ' is alive' : 'host ' + host + ' is dead';
-        console.log(msg);
-    });
-});
+	hosts.forEach(function (host) {
+	    ping.promise.probe(host)
+		.then(function (res) {
+		    console.log(res);
+		});
+	});
 }	
 //++++++++++++++++++++++++++++++++
 		socket.on('ping_ip',function(ipsOffLine){//28-12-2017 Modulo para hacer ping a IPs de equipos
