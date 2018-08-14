@@ -247,17 +247,7 @@ io.on('connection', function(socket){
 		function otra(res){
 			ipRes=res.alive;
 		};
-//++++++++++++++++++++++++++++++++
-function testPing(){	
-var hosts = ['8.8.8.8', 'google.com', 'yahoo.com'];
-	hosts.forEach(function (host) {
-	    ping.promise.probe(host)
-		.then(function (res) {
-		    console.log(res);
-		});
-	});
-}	
-//++++++++++++++++++++++++++++++++
+
 		socket.on('ping_ip',function(ipsOffLine){//28-12-2017 Modulo para hacer ping a IPs de equipos
 				//haciendo ping para calidar si el equipo está encendido
 				var respuesta=0;//no responde
@@ -276,7 +266,7 @@ var hosts = ['8.8.8.8', 'google.com', 'yahoo.com'];
 						}.bind({p:p}));
 					
 					console.log("Respuesta = "+respuesta);
-					console.log("################################################");
+					console.log("~<.>-<.>~");
 					console.log("IP: "+ipsOffLine[p].ip+" "+ipsOffLine[p].Respuesta);
 				}
 
