@@ -247,12 +247,21 @@ io.on('connection', function(socket){
 		function otra(res){
 			ipRes=res.alive;
 		};
-
-
+//++++++++++++++++++++++++++++++++
+function testPing(){	
+var hosts = ['8.8.8.8', 'google.com', 'yahoo.com'];
+hosts.forEach(function(host){
+    ping.sys.probe(host, function(isAlive){
+        var msg = isAlive ? 'host ' + host + ' is alive' : 'host ' + host + ' is dead';
+        console.log(msg);
+    });
+});
+}	
+//++++++++++++++++++++++++++++++++
 		socket.on('ping_ip',function(ipsOffLine){//28-12-2017 Modulo para hacer ping a IPs de equipos
 				//haciendo ping para calidar si el equipo está encendido
 				var respuesta=0;//no responde
-
+ 				testPing();
 				for (var p = 0; p <= ipsOffLine.length - 1; p++) {//190.62.240.253					
 					    ping.sys.probe(ipsOffLine[p].ip.toString(), function(isAlive){ //ipsOffLine[p].ip.toString()
 					    	
